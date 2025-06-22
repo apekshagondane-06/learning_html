@@ -1,15 +1,46 @@
  
  footer{
     text-align: center;
-    font-weight: bold;
+    background-color: brown;
+    
+   
  }
- .heading {
+ .headings {
 
     font-weight: bold;
+    text-align: center;
+
  }
  .days {
       font-weight: bold;
+      text-align: center;
  }
  .heading2{
     text-align: center;
  }
+* {
+   background-color: pink
+}
+.marquee {
+   background-color: brown;
+   height: 50px;
+   
+}
+.heading1 {
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.drop_shadow {
+   filter: drop-shadow(15px 8px 7px brown);
+   width: 300px;
+   
+}
+#heading3 {
+   box-shadow: 10px 8px 10px rgb(36, 0, 0);
+   
+}
+.image {
+   filter: drop-shadow(8px 10px 10px rgb(0, 51, 32));
+}
